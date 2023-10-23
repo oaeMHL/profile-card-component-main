@@ -87,7 +87,7 @@ table {
 tr {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 th {
     font-weight: 700;
@@ -104,7 +104,12 @@ td {
 /* copyright */
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: var(--primary-white);
+    padding-top: 5px;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #85ffff;
+}
+.attribution a:hover { 
+    text-decoration: none;
 }
